@@ -9,7 +9,7 @@ type RouterInterface interface {
 type RouteLoader struct{}
 
 func (loader RouteLoader) LoadRoutes() []RouterInterface {
-	table := new(table)
+	table := new(Table)
 	return []RouterInterface{
 		table,
 	}

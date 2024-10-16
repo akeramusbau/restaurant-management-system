@@ -1,4 +1,4 @@
-package match
+package table
 
 import (
 	"gorm.io/gorm"
